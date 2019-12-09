@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 output: 
   bookdown::pdf_book:
     includes:
-      in_header: preamble2.tex
+      in_header: preamble.tex
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike

@@ -10,9 +10,10 @@ bookdown::gitbook:
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
-    in_header: preamble2.tex
+    in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
-  template: preamble2.tex
+  template: default.latex
   keep_tex: yes
+  keep_md: yes
 bookdown::epub_book: default
